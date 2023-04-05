@@ -11,18 +11,19 @@
             <h1>PINBALL WORLD</h1>
         </header>
         <div class="container">
-            <nav class="game-list">
+            <!-- originally didn't have an id only a class so added an id -->
+            <nav class="game-list" id="game-list">
                 <!-- Add the list of games here! -->
             </nav>
             
-            <section class="game-details">
+            <section class="game-details" id="game-details">
                 <!-- All the details of the games go in these elements! -->
                 <img id="detail-image" src=""/>
                 <div>
                 <h2 id="detail-title"></h2>
                 <h3>High Score: <span id="detail-high-score"></span></span></h3>
                 <form id="high-score-form">
-                    <input id="score-input" type="text" />
+                    <input id="score-input" type="number" />
                     <input type="submit" />
                 </form>
                 </div>
